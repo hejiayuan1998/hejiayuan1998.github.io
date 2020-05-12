@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>谷歌彩蛋集锦</title>
+    <url>/2018/07/06/google-easter-eggs/</url>
+    <content><![CDATA[![](http://cdn.hjyweb.cn/browser-1666982_1280.png)
+
+# 扔硬币
+
+<center>{% label default@flip a coin %}</center>
+
+遇到难以抉择、进退两难的选择？摸摸口袋却没有硬币？别担心，Google来帮你！
+
+![](http://cdn.hjyweb.cn/google1.png)
+
+---
+
+# 扔骰子
+
+<center>{% label primary@roll a die %}</center>
+
+嗯~~~这个你们懂的！特别是学概率论的童鞋^_^
+
+![](http://cdn.hjyweb.cn/google2.png)
+
+---
+
+# 比萨斜塔
+
+<center>{% label success@askew %}</center>
+
+这是要逼死强迫症的节奏啊啊啊啊……
+
+![](http://cdn.hjyweb.cn/google3.png)
+
+---
+
+![](http://cdn.hjyweb.cn/google4.png)
+
+---
+
+# 星际争霸
+
+<center>{% label info@zerg rush %}</center>
+
+Zerg Rush是《星际争霸》中一种“一方以最快速度生产6个或以上的跳虫攻击敌方的战术”。
+
+啊啊啊啊……我的网页没啦！输啦输啦！
+看看你能玩多少分？（坏笑脸.jpg）听说还有个吉尼斯纪录！
+
+![](http://cdn.hjyweb.cn/google5.png)
+
+---
+
+![](http://cdn.hjyweb.cn/google6.png)
+
+---
+
+![](http://cdn.hjyweb.cn/google7.png)
+
+---
+
+![](http://cdn.hjyweb.cn/google8.png)
+
+GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG
+
+---
+
+# 打砖块
+
+<center>{% label warning@atari breakout %}</center>
+
+在图片搜索输入以上字母，你就可以玩起打砖块游戏啦！
+这游戏音效，带感！
+
+![](http://cdn.hjyweb.cn/google9.png)
+
+---
+
+![](http://cdn.hjyweb.cn/google10.png)
+
+---
+
+![](http://cdn.hjyweb.cn/google11.png)
+
+---
+
+# 吃豆人
+
+<center>{% label danger@google pacman %}</center>
+
+童年的回忆啊！！！有木有？
+貌似暴露年龄了，咳咳~
+
+![](http://cdn.hjyweb.cn/google12.png)
+
+---
+
+![](http://cdn.hjyweb.cn/google13.png)
+
+---
+
+# 谷歌重力
+
+<center>{% label default@google gravity %}</center>
+
+体验一下自由落体是什么感觉
+可以在女票/男票电脑上试试，嘻嘻
+看着碎了一地的Google
+世界塌了哈哈哈哈哈哈
+
+![](http://cdn.hjyweb.cn/google14.png)
+
+---
+
+![](http://cdn.hjyweb.cn/google15.png)
+
+---
+
+# 翻转世界
+
+<center>{% label primary@do a barrel roll %}</center>
+
+你喜欢就好┑(￣Д ￣)┍
+
+![](http://cdn.hjyweb.cn/google16.png)
+
+---
+
+# Google历史界面
+
+<center>{% label success@google in 1998 %}</center>
+
+重温经典的不归之路~
+
+![](http://cdn.hjyweb.cn/google17.png)
+
+---
+
+![](http://cdn.hjyweb.cn/google18.png)
+
+---
+
+# 谷歌轨道
+
+<center>{% label info@google orbit %}</center>
+
+装逼神器，懂的人自然懂:-)
+话说Gmail标签在哪？
+
+![](http://cdn.hjyweb.cn/google19.png)
+
+---
+
+![](http://cdn.hjyweb.cn/google20.png)
+
+---
+
+你TMD倒是说说怎么上Google啊！！！
+谁知道呢？（坏笑.jpg）
+喏！给你个网址：www.google.com
+祝您心明眼亮！]]></content>
+      <tags>
+        <tag>Google</tag>
+        <tag>彩蛋</tag>
+        <tag>谷歌搜索</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>博客样式汇总</title>
+    <url>/2018/01/11/style-summary/</url>
+    <content><![CDATA[![](http://cdn.hjyweb.cn/icon.png)
+
+# 文本居中
+
+源码：
+```
+<center>你好，这里是HJYWEB的博客</center>
+```
+效果：
+<center>你好，这里是HJYWEB的博客</center>
+
+---
+
+# [emoji](https://www.emojicopy.com/)
+
+😀😃😄😁😆😅😂🤣😊😇🙂🙃😉😌😍😘😗😙😚😋😛😝😜🤪
+🤨🧐🤓😎🤩😏😒😞😔😟😕🙁☹😣😖😫😩😢😭😤😠😡🤬🤯😳
+😱😨😰😥😓🤗🤔🤭🤫🤥😶😐😑😬🙄😯😦😧😮😲😴🤤😪
+😵🤐🤢🤮🤧😷🤒🤕🤑🤠
+🤲👐🙌👏🤝👍👎👊✊🤛🤜🤞✌🤟🤘👌👈👉👆👇☝✋🤚🖐🖖👋🤙💪🖕✍🙏
+
+---
+
+# [FontAwesome](https://fontawesome.com/icons?from=io)
+
+源码：
+```
+- <i class="fa fa-pencil"></i> 铅笔
+- <i class="fa fa-cloud-upload"></i> 上传
+- <i class="fa fa-download"></i> 下载
+```
+
+效果：
+- <i class="fa fa-pencil"></i> 铅笔
+- <i class="fa fa-cloud-upload"></i> 上传
+- <i class="fa fa-download"></i> 下载
+
+源码：
+```
+- <i class="fa fa-download"></i> 下载
+- <i class="fa fa-download fa-lg"></i> 下载变大 33%
+- <i class="fa fa-download fa-2x"></i> 下载两倍大
+```
+
+效果：
+- <i class="fa fa-download"></i> 下载
+- <i class="fa fa-download fa-lg"></i> 下载变大 33%
+- <i class="fa fa-download fa-2x"></i> 下载两倍大
+
+---
+
+# 代码块
+
+```[] 代码块
+在第一行```后面写
+[] 代码块
+就能达到这个效果
+```
+
+---
+
+# 文本居中引用
+
+源码：
+```
+{% cq %}
+人的一切痛苦，本质上都是对自己的无能的愤怒
+
+**王小波**
+{% endcq %}
+```
+
+效果：
+{% cq %}
+人的一切痛苦，本质上都是对自己的无能的愤怒
+
+**王小波**
+{% endcq %}
+
+---
+
+# note 标签
+
+源码：
+```
+{% note default %}default{% endnote %}
+{% note primary %}primary{% endnote %}
+{% note success %}success{% endnote %}
+{% note info %}info{% endnote %}
+{% note warning %}warning{% endnote %}
+{% note danger %}danger{% endnote %}
+{% note danger no-icon %}danger no-icon{% endnote %}
+```
+效果：
+{% note default %}default{% endnote %}
+{% note primary %}primary{% endnote %}
+{% note success %}success{% endnote %}
+{% note info %}info{% endnote %}
+{% note warning %}warning{% endnote %}
+{% note danger %}danger{% endnote %}
+{% note danger no-icon %}danger no-icon{% endnote %}
+
+---
+
+# label 标签
+然后效果如下（@ 前面的是`label`的名字，后面的是要显示的文字）：
+
+源码：
+```
+{% label default@default %}
+{% label primary@primary %}
+{% label success@success %}
+{% label info@info %}
+{% label warning@warning %}
+{% label danger@danger %}
+```
+
+效果：
+{% label default@default %}
+{% label primary@primary %}
+{% label success@success %}
+{% label info@info %}
+{% label warning@warning %}
+{% label danger@danger %}
+
+---
+
+# tabs 标签
+
+源码：
+```
+{% tabs 选项卡, 2 %}
+<!-- tab -->
+**这是选项卡 1** 呵呵哈哈哈哈哈哈哈哈呵呵……
+<!-- endtab -->
+<!-- tab -->
+**这是选项卡 2**
+<!-- endtab -->
+<!-- tab -->
+**这是选项卡 3** 哇，你找到我了！φ(≧ω≦*)♪～
+<!-- endtab -->
+{% endtabs %}
+```
+
+效果：
+{% tabs 选项卡, 2 %}
+<!-- tab -->
+**这是选项卡 1** 呵呵哈哈哈哈哈哈哈哈呵呵……
+<!-- endtab -->
+<!-- tab -->
+**这是选项卡 2**
+<!-- endtab -->
+<!-- tab -->
+**这是选项卡 3** 哇，你找到我了！φ(≧ω≦*)♪～
+<!-- endtab -->
+{% endtabs %}
+
+上面源码中`, 2`表示一开始在第二个选项卡，非必须，若数值为`-1`则隐藏选项卡内容。更多用法请查看[这个页面](https://almostover.ru/2016-01/hexo-theme-next-test/#Tab-tag-test)。
+
+---
+
+更多的 Hexo 标签插件（Tag Plugins）的用法，请自行查看 Hexo 官方文档的[标签插件](https://hexo.io/zh-cn/docs/tag-plugins.html#%E4%BB%A3%E7%A0%81%E5%9D%97)页面。
+
+---
+
+# 按钮
+
+源码：
+```
+<a id="download" href="https://git-scm.com/download/win"><i class="fa fa-download"></i><span>现在下载</span> </a>
+<a id="tube" href="https://www.youtube.com/watch?v=Gl23T9aOfoE"><i class="fa fa-youtube-play"></i><span> YouTube </span>
+```
+
+效果：
+<a id="download" href="https://git-scm.com/download/win"><i class="fa fa-download"></i><span>现在下载</span> </a>
+<a id="tube" href="https://www.youtube.com/watch?v=Gl23T9aOfoE"><i class="fa fa-youtube-play"></i><span> YouTube </span>
+
+---
+
+# 自定义的数字块
+
+需加入`custom.styl`的代码：
+```[] 文件位置：~/blog/themes/next/source/css/_custom/custom.styl
+// 自定义的数字块
+span#inline-toc {
+    display: inline-block;
+    border-radius: 80% 100% 90% 20%;
+    background-color: rgb(227, 242, 253);
+    color: #555;
+    padding: 0.05em 0.4em;
+    margin: 2px 5px 2px 0px;
+    line-height: 1.5;
+}
+```
+
+源码：
+```
+<span id="inline-toc">1.</span>左边是效果
+```
+
+效果：
+<span id="inline-toc">1.</span>左边是效果]]></content>
+      <tags>
+        <tag>博客</tag>
+      </tags>
+  </entry>
+</search>
