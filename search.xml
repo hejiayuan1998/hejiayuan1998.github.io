@@ -1,6 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Google出品的图片压缩神器：Squoosh</title>
+    <url>/2018/11/14/squoosh/</url>
+    <content><![CDATA[除了著名的TinyPNG外，还有一个压缩图片的网站值得你收藏！
+
+![](http://cdn.hjyweb.cn/wp-content/uploads/2020/03/tinypng.jpg)
+<!-- more -->
+
+说起在线图片压缩，可能很多人第一反应是微信或者QQ，毕竟这种软件自带压缩功能，发个来回就能把原图从几MB压缩到几百KB。但这不是重点，重点是某些网站在提交图片资料时有严格的大小限制，比如某财政局网站在审核会计人员时，就要求相关资料图片不能大于200kB一张。
+
+这可把我给急坏了，现在的智能手机拍个照片，真的随随便便就几MB了。刚开始我还用TinyPNG的，毕竟百度搜索“压缩图片”，排名第一就是它，也算是压缩图片的神器之一了。
+
+但我反复上传压缩了几次都不行，又不想动用Photoshop~~（主要是不会）~~，就上网搜了一下有没有可以“定制”压缩比例大小的。
+
+这还真被我找到了，而且还是Google开源的一个在线图片压缩网站——[Squoosh](https://squoosh.app/)，官网截图如下：
+
+![](http://cdn.hjyweb.cn/wp-content/uploads/2020/03/squoosh.jpg)
+
+这款神器支持JPG、PNG、WEBP等常见格式图片的极限压缩，注意了，是极限压缩，随心所欲选择压缩力度的那种。个人感觉比TinyPNG还要屌，下面以一张原始尺寸为505KB的图片做一下对比测试，大家看看就知道了：
+
+| 图片压缩方式 | 大小（KB） | 压缩图片数量 |
+|:------------:|:----------:|:------------:|
+| 原始图片 | 505        |                    |
+| TinyPNG压缩 | 118        | 一次一张或多张图片 |
+| Squoosh压缩 | 73.5       | 一次一张图片 |
+
+压缩之后，三张图片也几乎看不出区别：
+
+![](http://cdn.hjyweb.cn/wp-content/uploads/2020/03/yasodvbitu.jpg)
+
+当然啦，软件操作起来也是相当的简单，只需在右方的“质量”里面选择百分比，就可以得到不同压缩程度的图片。而且它的功能也不仅仅只有“压缩图片”哦！
+
+![](http://cdn.hjyweb.cn/wp-content/uploads/2020/03/squooshcczo.jpg)
+
+最后，放上这两款压缩图片神器的网址：
+
+- Squoosh压缩： [https://squoosh.app/](https://squoosh.app/)
+- TinyPNG压缩： [https://tinypng.com/](https://tinypng.com/)
+]]></content>
+      <categories>
+        <category>Windows</category>
+        <category>技术教程</category>
+      </categories>
+  </entry>
+  <entry>
     <title>博客样式汇总</title>
     <url>/2018/01/11/style-summary/</url>
     <content><![CDATA[你看到的这个网站上的大部分内容都是使用Markdown语法写成的（可查看相关介绍博文），这篇文章的一些样式，部分也可以用于其他平台上，比如表情包和小图标在很多Markdown平台里也是通用的。
@@ -216,6 +260,87 @@ span#inline-toc {
       </tags>
   </entry>
   <entry>
+    <title>为什么在京东搜的东西，会在微信广告里看到</title>
+    <url>/2019/09/19/programmatic-advertising/</url>
+    <content><![CDATA[为什么你会被广告“追”？
+
+![](http://cdn.hjyweb.cn/wp-content/uploads/2020/03/pa1.png)
+<!-- more -->
+
+可能大家常常都会有一个疑惑：为什么我刚在京东搜的耳机，这会儿在抖音就刷到广告了，而且还是我搜的那个型号？哎，不仅仅在抖音哎，微信订阅号里也出现了耳机的广告了。
+
+![](http://cdn.hjyweb.cn/wp-content/uploads/2020/03/pa5.png)
+
+其实，不止是你，当今这种现象可以说是非常的普遍了。比如在淘宝搜“大衣”就会在知乎上看到广告；在京东搜“零食”就会在抖音里看到视频广告；在天猫搜索“手表”就会在微信公众号里看到手表的广告。可以说是非常“贴心”了！
+
+![](http://cdn.hjyweb.cn/wp-content/uploads/2020/03/pa2.png)
+
+与程序化广告相对应的一个概念是“标签化定向投放”广告，也就是我们非常熟悉的传统广告。它们包括：传统纸媒的广告、搜索引擎的广告、网站网页上的固定广告等等。
+
+![](http://cdn.hjyweb.cn/wp-content/uploads/2020/03/pa4.png)
+
+比如你在百度搜索“会计”，百度会根据你的搜索关键词返回搜索内容以及相关的广告。
+
+![](http://cdn.hjyweb.cn/wp-content/uploads/2020/03/pa3.png)
+
+比如本网站首页右侧的微信小程序广告，左侧上方的腾讯云推广也都属于标签化定向投放广告。
+
+这类广告模式经过多年的发展，产业链也已经相当完善，广告费用也相对较低。但由于缺乏“定制”，所以广告的转化率也相对较低。如果过多地推送无关广告，也会降低用户体验。
+
+![](http://cdn.hjyweb.cn/wp-content/uploads/2020/03/pa6.png)
+
+而程序化广告则能够很好的解决这个问题， 程序化广告的一个核心应用就是“信息流实时竞价投放”广告。
+
+这是基于现代信息咨询获取方式的变化而发展出来的一种广告模式，现在绝大多数资讯网站都提供了“智能推荐”，在很大程度上弱化了用户“搜索”的倾向。
+
+在“投喂式”获取资讯的今天，实时竞价投放结合大数据的应用，已有足够的能力向用户投放“智能推荐”的广告。
+
+![](http://cdn.hjyweb.cn/wp-content/uploads/2020/03/pa7.png)
+
+程序化广告的主要流程如上图所示，在用户即将“滑到”广告位的时候，APP以及网站等流量供应方便会把该用户的请求转发至广告交易平台。
+
+在广告交易平台，不同的需求方平台会对该用户信息进行识别，如用户的性别、年龄段、浏览历史、兴趣爱好等。根据数据管理平台的识别结果，在广告库中进行广告匹配。如果匹配概率较高，需求方平台就会提供更高的报价以获得这一个广告位。
+
+在广告交易平台，不同的需求方平台通过“投标”的方式竞价该广告位。根据相关资料显示，中标的需求方平台的中标金额为排名第二高的标价加上1分等金额。这样的投标机制也有利于激发需求方平台的竞标“热情”。
+
+![](http://cdn.hjyweb.cn/wp-content/uploads/2020/03/pa8.png)
+
+这一整个过程耗时一般在80毫秒至100毫秒。
+
+![](http://cdn.hjyweb.cn/wp-content/uploads/2020/03/bd.jpg)
+<center>百度的 “信息流实时竞价投放”广告</center>
+
+当然，这整一个过程最重要的就是用户画像了，说白了，就是你的APP了解你的程度。了解的程度越高，用户画像就越精确，广告也就越精准了。
+
+![](http://cdn.hjyweb.cn/wp-content/uploads/2020/03/yshuhxxl.jpg)
+<center>用户画像是核心所在</center>
+
+这其中，有一个很重要的数据就是国际移动设备识别码(IMEI) ，有了IMEI，想要确定你的兴趣爱好等等，基本上就很容易了。可以说，IMEI就是互联网的身份证！
+
+![](http://cdn.hjyweb.cn/wp-content/uploads/2020/03/pa11.png)
+
+说句题外话，由于对隐私的重视，像是苹果、谷歌等厂商，已经对手机的IMEI进行了加密和替换。也就是说，只要你重置手机，以前的广告商就“识别”不了你了。你就像重获新生一样……
+
+![](http://cdn.hjyweb.cn/wp-content/uploads/2020/03/dzyb.jpg)
+
+当然，在某种程度上来说，程序化广告还是利大于弊的。无论是对于广告主还是用户，这项技术都有效的整合了资源，避免了信息资源的浪费。
+
+![](http://cdn.hjyweb.cn/wp-content/uploads/2020/03/pa13.png)
+
+广告正通过技术手段，更加的了解你，也更加懂你，这何尝不是一种进步呢？
+
+]]></content>
+      <categories>
+        <category>求知</category>
+      </categories>
+      <tags>
+        <tag>广告</tag>
+        <tag>广告追踪</tag>
+        <tag>程序化广告</tag>
+        <tag>购物</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>谷歌彩蛋集锦</title>
     <url>/2018/07/06/google-easter-eggs/</url>
     <content><![CDATA[作为全球最有实力的科技公司之一，Google公司有着很多程序员向往的“极客”精神，很多歪果仁的日常生活也已经离不开Google。这篇文章我们聊聊那些有趣的Google搜索彩蛋！
@@ -385,6 +510,172 @@ GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG
         <tag>Google</tag>
         <tag>彩蛋</tag>
         <tag>谷歌搜索</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2019年世界排名前100的网站（附图文数据）</title>
+    <url>/2019/08/08/top-100-websites/</url>
+    <content><![CDATA[现代人的生活几乎离不开网络，我们每天的大部分时间都花在app和网站上面。有一个机构统计了全球最流行的前100个网站，看看你访问过几个？
+
+![](http://cdn.hjyweb.cn/wp-content/uploads/2020/03/top-100-websites.jpg)
+<!-- more -->
+
+随着世界上更多的人开始在网上过上更多的生活，世界排名前100位的网站继续看到他们的流量数量出现爆炸性增长。
+
+要声称在此排名中排名第100位，您的网站在一个月内将需要大约3.5亿次访问。使用来自SimilarWeb的数据，我们可视化地绘制出互联网上排名前100位的最大网站。检查排名揭示了很多关于世界各地的人们如何搜索信息，他们使用哪些服务以及他们如何在网上花时间。
+
+> 注意：这是大型网站的排名，具体而言。跨平台扩展或通过应用程序为大多数用户提供服务的品牌未必在此列表中排名靠前。因此，您会注意到WeChat和Snapchat等公司的缺席。
+
+# 全球百强网站清单
+
+2019年6月，100个最大的网站产生了惊人的2060亿次访问。谷歌，YouTube和Facebook位居榜首，其次是百度和维基百科。以下是完整排名：
+
+| 全球排名 |	域名 | 每月访问量 (十亿) | 所属公司 | 国家 |
+|:-------:|:----:|:---------------:|:-------:|:---:|
+| 1   | Google.com          | 60.49 | Alphabet Inc                    | 美国         |
+| 2   | Youtube.com         | 24.31 | Alphabet Inc                    | 美国         |
+| 3   | Facebook.com        | 19.98 | Facebook, Inc                   | 美国         |
+| 4   | Baidu.com           | 9.77  | Baidu, Inc                      | 中国         |
+| 5   | Wikipedia.org       | 4.69  | Wikimedia Foundation            | 美国         |
+| 6   | Twitter.com         | 3.92  | Twitter, Inc                    | 美国         |
+| 7   | Yahoo.com           | 3.74  | Verizon Comm. Inc               | 美国         |
+| 8   | pornhub.com         | 3.36  | Mindgeek                        | 加拿大      |
+| 9   | Instagram.com       | 3.21  | Facebook, Inc                   | 美国         |
+| 10  | xvideos.com         | 3.19  | WGCZ Holding                    | Czech Republic |
+| 11  | yandex.ru           | 3.06  | Yandex                          | Russia         |
+| 12  | ampproject.org      | 2.76  | N/A                             | 美国         |
+| 13  | xnxx.com            | 2.47  | WGCZ Holding                    | Czech Republic |
+| 14  | amazon.com          | 2.41  | Amazon.com, Inc                 | 美国         |
+| 15  | live.com            | 2.25  | Microsoft Corporation           | 美国         |
+| 16  | vk.com              | 2.16  | Mail.ru Group                   | Russia         |
+| 17  | netflix.com         | 1.81  | Netflix, Inc                    | 美国         |
+| 18  | qq.com              | 1.76  | Tencent                         | 中国         |
+| 19  | whatsapp.com        | 1.76  | Facebook, Inc                   | 美国         |
+| 20  | mail.ru             | 1.64  | Mail.ru Group                   | Russia         |
+| 21  | Reddit.com          | 1.55  | Advance Publications            | 美国         |
+| 22  | yahoo.co.jp         | 1.5   | Verizon Comm. Inc               | 日本         |
+| 23  | google.com.br       | 1.38  | Alphabet Inc                    | Brazil         |
+| 24  | bing.com            | 1.32  | Microsoft Corporation           | 美国         |
+| 25  | ok.ru               | 1.08  | Mail.ru Group                   | Russia         |
+| 26  | xhamster.com        | 1.06  | Hammy Media Ltd                 | Cyprus         |
+| 27  | sogou.com           | 1     | Tencent, Sohu Inc               | 中国         |
+| 28  | ebay.com            | 0.95  | eBay Inc                        | 美国         |
+| 29  | bit.ly              | 0.95  | Spectrum Equity                 | 美国         |
+| 30  | twitch.tv           | 0.91  | Amazon.com, Inc                 | 美国         |
+| 31  | linkedin.com        | 0.91  | Microsoft Corporation           | 美国         |
+| 32  | samsung.com         | 0.89  | Samsung Group                   | South Korea    |
+| 33  | sm.cn               | 0.81  | Alibaba Group                   | 中国         |
+| 34  | msn.com             | 0.8   | Microsoft Corporation           | 美国         |
+| 35  | office.com          | 0.79  | Microsoft Corporation           | 美国         |
+| 36  | globo.com           | 0.74  | Grupo Globo                     | Brazil         |
+| 37  | taobao.com          | 0.74  | Alibaba Group                   | 中国         |
+| 38  | pinterest.com       | 0.74  | Pinterest, Inc                  | 美国         |
+| 39  | google.de           | 0.73  | Alphabet Inc                    | 德国         |
+| 40  | Microsoft.com       | 0.72  | Microsoft Corporation           | 美国         |
+| 41  | accuweather.com     | 0.71  | AccuWeather Inc                 | 美国         |
+| 42  | naver.com           | 0.64  | Naver Corporation               | South Korea    |
+| 43  | aliexpress.com      | 0.64  | Alibaba Group                   | 中国         |
+| 44  | fandom.com          | 0.61  | Wikia Inc                       | 美国         |
+| 45  | quora.com           | 0.58  | Quora Inc                       | 美国         |
+| 46  | github.com          | 0.57  | Microsoft Corporation           | 美国         |
+| 47  | imdb.com            | 0.57  | Amazon.com, Inc                 | 美国         |
+| 48  | uol.com.br          | 0.56  | Grupo Folha                     | Brazil         |
+| 49  | docomo.ne.jp        | 0.56  | Tata Teleservices               | 日本         |
+| 50  | youporn.com         | 0.55  | Mindgeek                        | 加拿大      |
+| 51  | bbc.co.uk           | 0.55  | Public owned                    | United Kingdom |
+| 52  | microsoftonline.com | 0.55  | Unknown                         | Unknown        |
+| 53  | paypal.com          | 0.53  | Paypal                          | 美国         |
+| 54  | google.fr           | 0.53  | Alphabet Inc                    | France         |
+| 55  | yidianzixun.com     | 0.51  | Particle Inc                    | 中国         |
+| 56  | wordpress.com       | 0.51  | Automattic                      | 美国         |
+| 57  | news.google.com     | 0.51  | Alphabet Inc                    | 美国         |
+| 58  | sohu.com            | 0.51  | Sohu                            | 中国         |
+| 59  | duckduckgo.com      | 0.51  | Duck Duck Go, Inc               | 美国         |
+| 60  | google.co.uk        | 0.51  | Alphabet Inc                    | United Kingdom |
+| 61  | 10086.cn            | 0.5   | 中国移动                    | 中国         |
+| 62  | iqiyi.com           | 0.5   | Baidu, Inc                      | 中国         |
+| 63  | booking.com         | 0.5   | Booking Holdings                | 美国         |
+| 64  | amazon.co.jp        | 0.49  | Amazon.com, Inc                 | 日本         |
+| 65  | cricbuzz.com        | 0.49  | Times Internet                  | 印度         |
+| 66  | taboola.com         | 0.48  | Taboola Inc                     | 美国         |
+| 67  | amazon.de           | 0.48  | Amazon.com, Inc                 | 德国         |
+| 68  | cnn.com             | 0.47  | Turner Broadcasting             | 美国         |
+| 69  | jd.com              | 0.47  | Various (Tencent 20%)           | 中国         |
+| 70  | apple.com           | 0.47  | Apple Inc                       | 美国         |
+| 71  | google.it           | 0.45  | Alphabet Inc                    | 意大利      |
+| 72  | bilibili.com        | 0.44  | Bilibili Inc                    | 中国         |
+| 73  | google.co.jp        | 0.44  | Alphabet Inc                    | 日本         |
+| 74  | livejasmin.com      | 0.44  | Docler Group                    | Luxembourg     |
+| 75  | tmall.com           | 0.44  | Alibaba Group                   | 中国         |
+| 76  | news.yahoo.co.jp    | 0.44  | Verizon Comm. Inc               | 日本         |
+| 77  | youtu.be            | 0.44  | Alphabet Inc                    | 美国         |
+| 78  | tribunnews.com      | 0.43  | Kompas Gramedia Group           | Indonesia      |
+| 79  | amazon.co.uk        | 0.43  | Amazon.com, Inc                 | United Kingdom |
+| 80  | chaturbate.com      | 0.43  | Multi Media LLC                 | 美国         |
+| 81  | google.co.in        | 0.41  | Alphabet Inc                    | 印度         |
+| 82  | craigslist.org      | 0.41  | Craigslist                      | 美国         |
+| 83  | imgur.com           | 0.41  | Imgur Inc                       | 美国         |
+| 84  | bbc.com             | 0.41  | Public owned                    | United Kingdom |
+| 85  | fc2.com             | 0.39  | FC2, Inc                        | 美国         |
+| 86  | tsyndicate.com      | 0.39  | Unknown                         | Unknown        |
+| 87  | redtube.com         | 0.38  | Mindgeek                        | 加拿大      |
+| 88  | tumblr.com          | 0.37  | Verizon                         | 美国         |
+| 89  | foxnews.com         | 0.36  | Fox Corporation                 | 美国         |
+| 90  | rakuten.co.jp       | 0.36  | Rakuten Inc                     | 日本         |
+| 91  | google.es           | 0.36  | Alphabet Inc                    | Spain          |
+| 92  | outbrain.com        | 0.36  | Outbrain Inc                    | 美国         |
+| 93  | discordapp.com      | 0.36  | Various                         | 美国         |
+| 94  | amazon.in           | 0.35  | Amazon.com, Inc                 | 印度         |
+| 95  | crptgate.com        | 0.34  | Unknown                         | Unknown        |
+| 96  | weather.com         | 0.34  | Landmark Media Enterprises, LLC | 美国         |
+| 97  | toutiao.com         | 0.34  | Bytedance                       | 中国         |
+| 98  | youku.com           | 0.34  | Alibaba Group                   | 中国         |
+| 99  | adobe.com           | 0.34  | Adobe Inc                       | 美国         |
+| 100 | news.yandex.ru      | 0.33  | Yandex                          | Russia         |
+
+# 流量最大的还是搜索引擎
+
+搜索引擎提供将互联网绑定在一起的结缔组织，并且它们占据了排名前100位的网站流量的大部分。
+
+Google是世界上几乎每个国家无可争议的顶级网站。事实上，Alphabet在排名前100位的11个领域 – 包括YouTube和一些国际版Google–在一个月内获得了令人印象深刻的900亿次访问。
+
+中国（百度）和俄罗斯（Yandex）可以找到谷歌占据主导地位的例外情况，本土搜索引擎已经成功占领了国内市场。
+
+一个斗志旺盛的竞争对手DuckDuckGo正逐渐成为谷歌的替代品。搜索引擎对用户隐私的关注似乎与互联网用户产生共鸣，因为该网站的流量每月超过5亿次访问。
+
+# 流媒体高速发展
+
+视频流和共享是全球互联网流量的另一个主要驱动因素。
+
+由于高性能手机和更大的数据计划，视频现在是互联网内容消费的重要部分。这可以采取几种形式，从在Netflix上观看电视节目到在Douyin和Instagram等平台上进行简短的视频上传。
+
+实时流媒体越来越多地成为这一组合的一部分。Twitch专注于游戏，目前在网络流量方面排名世界第30位。亚马逊拥有的平台如此受欢迎，以至于在任何一个晚上，它的收视率超过了许多美国主要的有线电视网络。
+
+![](http://cdn.hjyweb.cn/wp-content/uploads/2020/03/twitch-hours-viewed.jpg)
+
+当然，此类别还包括成人内容，在此排名中有很好的代表性。XNXX，XVideos和PornHub都进入了前20名，这三个网站在最近一个月的数据中总共超过90亿次访问。
+
+# 百强网站国家分布状况
+
+互联网是一个全球网络，但许多守门人仍然位于美国。如果计算亚马逊和谷歌等公司的国际域名后缀，则排名中的100个网站中有60个是美国的。
+
+以下是按国家划分的前100名的细目。
+
+![](http://cdn.hjyweb.cn/wp-content/uploads/2020/03/top-100-websites-by-geo.gif)
+
+中国是一个强劲的亚军，在前100名中有15个网站。虽然这些中国公司大多集中在规模庞大的国内市场，但也有一些公司通过投资进入全球市场。腾讯部分支持快速增长的聊天平台Discord，它还拥有Snapchat和Spotify的两位数股权。
+
+除了百度之外，世界上所有最大的网站都通过服务全球受众而扩大规模。随着中国科技市场的不断成熟，中国企业能否成功超越防火墙成为下一个Facebook或谷歌还有待观察。
+
+> 更正：由中国公司运营的网站Bilibili被错误地识别为日本公司。
+]]></content>
+      <categories>
+        <category>网站</category>
+      </categories>
+      <tags>
+        <tag>世界排名</tag>
+        <tag>百强网站</tag>
+        <tag>网站</tag>
       </tags>
   </entry>
   <entry>
@@ -853,297 +1144,6 @@ Markdown 文档可以方便地转换为 HTML、Word、PDF 等格式的文档。�
         <tag>Markdown</tag>
         <tag>工作</tag>
         <tag>效率</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>2019年世界排名前100的网站（附图文数据）</title>
-    <url>/2019/08/08/top-100-websites/</url>
-    <content><![CDATA[现代人的生活几乎离不开网络，我们每天的大部分时间都花在app和网站上面。有一个机构统计了全球最流行的前100个网站，看看你访问过几个？
-
-![](http://cdn.hjyweb.cn/wp-content/uploads/2020/03/top-100-websites.jpg)
-<!-- more -->
-
-随着世界上更多的人开始在网上过上更多的生活，世界排名前100位的网站继续看到他们的流量数量出现爆炸性增长。
-
-要声称在此排名中排名第100位，您的网站在一个月内将需要大约3.5亿次访问。使用来自SimilarWeb的数据，我们可视化地绘制出互联网上排名前100位的最大网站。检查排名揭示了很多关于世界各地的人们如何搜索信息，他们使用哪些服务以及他们如何在网上花时间。
-
-> 注意：这是大型网站的排名，具体而言。跨平台扩展或通过应用程序为大多数用户提供服务的品牌未必在此列表中排名靠前。因此，您会注意到WeChat和Snapchat等公司的缺席。
-
-# 全球百强网站清单
-
-2019年6月，100个最大的网站产生了惊人的2060亿次访问。谷歌，YouTube和Facebook位居榜首，其次是百度和维基百科。以下是完整排名：
-
-| 全球排名 |	域名 | 每月访问量 (十亿) | 所属公司 | 国家 |
-|:-------:|:----:|:---------------:|:-------:|:---:|
-| 1   | Google.com          | 60.49 | Alphabet Inc                    | 美国         |
-| 2   | Youtube.com         | 24.31 | Alphabet Inc                    | 美国         |
-| 3   | Facebook.com        | 19.98 | Facebook, Inc                   | 美国         |
-| 4   | Baidu.com           | 9.77  | Baidu, Inc                      | 中国         |
-| 5   | Wikipedia.org       | 4.69  | Wikimedia Foundation            | 美国         |
-| 6   | Twitter.com         | 3.92  | Twitter, Inc                    | 美国         |
-| 7   | Yahoo.com           | 3.74  | Verizon Comm. Inc               | 美国         |
-| 8   | pornhub.com         | 3.36  | Mindgeek                        | 加拿大      |
-| 9   | Instagram.com       | 3.21  | Facebook, Inc                   | 美国         |
-| 10  | xvideos.com         | 3.19  | WGCZ Holding                    | Czech Republic |
-| 11  | yandex.ru           | 3.06  | Yandex                          | Russia         |
-| 12  | ampproject.org      | 2.76  | N/A                             | 美国         |
-| 13  | xnxx.com            | 2.47  | WGCZ Holding                    | Czech Republic |
-| 14  | amazon.com          | 2.41  | Amazon.com, Inc                 | 美国         |
-| 15  | live.com            | 2.25  | Microsoft Corporation           | 美国         |
-| 16  | vk.com              | 2.16  | Mail.ru Group                   | Russia         |
-| 17  | netflix.com         | 1.81  | Netflix, Inc                    | 美国         |
-| 18  | qq.com              | 1.76  | Tencent                         | 中国         |
-| 19  | whatsapp.com        | 1.76  | Facebook, Inc                   | 美国         |
-| 20  | mail.ru             | 1.64  | Mail.ru Group                   | Russia         |
-| 21  | Reddit.com          | 1.55  | Advance Publications            | 美国         |
-| 22  | yahoo.co.jp         | 1.5   | Verizon Comm. Inc               | 日本         |
-| 23  | google.com.br       | 1.38  | Alphabet Inc                    | Brazil         |
-| 24  | bing.com            | 1.32  | Microsoft Corporation           | 美国         |
-| 25  | ok.ru               | 1.08  | Mail.ru Group                   | Russia         |
-| 26  | xhamster.com        | 1.06  | Hammy Media Ltd                 | Cyprus         |
-| 27  | sogou.com           | 1     | Tencent, Sohu Inc               | 中国         |
-| 28  | ebay.com            | 0.95  | eBay Inc                        | 美国         |
-| 29  | bit.ly              | 0.95  | Spectrum Equity                 | 美国         |
-| 30  | twitch.tv           | 0.91  | Amazon.com, Inc                 | 美国         |
-| 31  | linkedin.com        | 0.91  | Microsoft Corporation           | 美国         |
-| 32  | samsung.com         | 0.89  | Samsung Group                   | South Korea    |
-| 33  | sm.cn               | 0.81  | Alibaba Group                   | 中国         |
-| 34  | msn.com             | 0.8   | Microsoft Corporation           | 美国         |
-| 35  | office.com          | 0.79  | Microsoft Corporation           | 美国         |
-| 36  | globo.com           | 0.74  | Grupo Globo                     | Brazil         |
-| 37  | taobao.com          | 0.74  | Alibaba Group                   | 中国         |
-| 38  | pinterest.com       | 0.74  | Pinterest, Inc                  | 美国         |
-| 39  | google.de           | 0.73  | Alphabet Inc                    | 德国         |
-| 40  | Microsoft.com       | 0.72  | Microsoft Corporation           | 美国         |
-| 41  | accuweather.com     | 0.71  | AccuWeather Inc                 | 美国         |
-| 42  | naver.com           | 0.64  | Naver Corporation               | South Korea    |
-| 43  | aliexpress.com      | 0.64  | Alibaba Group                   | 中国         |
-| 44  | fandom.com          | 0.61  | Wikia Inc                       | 美国         |
-| 45  | quora.com           | 0.58  | Quora Inc                       | 美国         |
-| 46  | github.com          | 0.57  | Microsoft Corporation           | 美国         |
-| 47  | imdb.com            | 0.57  | Amazon.com, Inc                 | 美国         |
-| 48  | uol.com.br          | 0.56  | Grupo Folha                     | Brazil         |
-| 49  | docomo.ne.jp        | 0.56  | Tata Teleservices               | 日本         |
-| 50  | youporn.com         | 0.55  | Mindgeek                        | 加拿大      |
-| 51  | bbc.co.uk           | 0.55  | Public owned                    | United Kingdom |
-| 52  | microsoftonline.com | 0.55  | Unknown                         | Unknown        |
-| 53  | paypal.com          | 0.53  | Paypal                          | 美国         |
-| 54  | google.fr           | 0.53  | Alphabet Inc                    | France         |
-| 55  | yidianzixun.com     | 0.51  | Particle Inc                    | 中国         |
-| 56  | wordpress.com       | 0.51  | Automattic                      | 美国         |
-| 57  | news.google.com     | 0.51  | Alphabet Inc                    | 美国         |
-| 58  | sohu.com            | 0.51  | Sohu                            | 中国         |
-| 59  | duckduckgo.com      | 0.51  | Duck Duck Go, Inc               | 美国         |
-| 60  | google.co.uk        | 0.51  | Alphabet Inc                    | United Kingdom |
-| 61  | 10086.cn            | 0.5   | 中国移动                    | 中国         |
-| 62  | iqiyi.com           | 0.5   | Baidu, Inc                      | 中国         |
-| 63  | booking.com         | 0.5   | Booking Holdings                | 美国         |
-| 64  | amazon.co.jp        | 0.49  | Amazon.com, Inc                 | 日本         |
-| 65  | cricbuzz.com        | 0.49  | Times Internet                  | 印度         |
-| 66  | taboola.com         | 0.48  | Taboola Inc                     | 美国         |
-| 67  | amazon.de           | 0.48  | Amazon.com, Inc                 | 德国         |
-| 68  | cnn.com             | 0.47  | Turner Broadcasting             | 美国         |
-| 69  | jd.com              | 0.47  | Various (Tencent 20%)           | 中国         |
-| 70  | apple.com           | 0.47  | Apple Inc                       | 美国         |
-| 71  | google.it           | 0.45  | Alphabet Inc                    | 意大利      |
-| 72  | bilibili.com        | 0.44  | Bilibili Inc                    | 中国         |
-| 73  | google.co.jp        | 0.44  | Alphabet Inc                    | 日本         |
-| 74  | livejasmin.com      | 0.44  | Docler Group                    | Luxembourg     |
-| 75  | tmall.com           | 0.44  | Alibaba Group                   | 中国         |
-| 76  | news.yahoo.co.jp    | 0.44  | Verizon Comm. Inc               | 日本         |
-| 77  | youtu.be            | 0.44  | Alphabet Inc                    | 美国         |
-| 78  | tribunnews.com      | 0.43  | Kompas Gramedia Group           | Indonesia      |
-| 79  | amazon.co.uk        | 0.43  | Amazon.com, Inc                 | United Kingdom |
-| 80  | chaturbate.com      | 0.43  | Multi Media LLC                 | 美国         |
-| 81  | google.co.in        | 0.41  | Alphabet Inc                    | 印度         |
-| 82  | craigslist.org      | 0.41  | Craigslist                      | 美国         |
-| 83  | imgur.com           | 0.41  | Imgur Inc                       | 美国         |
-| 84  | bbc.com             | 0.41  | Public owned                    | United Kingdom |
-| 85  | fc2.com             | 0.39  | FC2, Inc                        | 美国         |
-| 86  | tsyndicate.com      | 0.39  | Unknown                         | Unknown        |
-| 87  | redtube.com         | 0.38  | Mindgeek                        | 加拿大      |
-| 88  | tumblr.com          | 0.37  | Verizon                         | 美国         |
-| 89  | foxnews.com         | 0.36  | Fox Corporation                 | 美国         |
-| 90  | rakuten.co.jp       | 0.36  | Rakuten Inc                     | 日本         |
-| 91  | google.es           | 0.36  | Alphabet Inc                    | Spain          |
-| 92  | outbrain.com        | 0.36  | Outbrain Inc                    | 美国         |
-| 93  | discordapp.com      | 0.36  | Various                         | 美国         |
-| 94  | amazon.in           | 0.35  | Amazon.com, Inc                 | 印度         |
-| 95  | crptgate.com        | 0.34  | Unknown                         | Unknown        |
-| 96  | weather.com         | 0.34  | Landmark Media Enterprises, LLC | 美国         |
-| 97  | toutiao.com         | 0.34  | Bytedance                       | 中国         |
-| 98  | youku.com           | 0.34  | Alibaba Group                   | 中国         |
-| 99  | adobe.com           | 0.34  | Adobe Inc                       | 美国         |
-| 100 | news.yandex.ru      | 0.33  | Yandex                          | Russia         |
-
-# 流量最大的还是搜索引擎
-
-搜索引擎提供将互联网绑定在一起的结缔组织，并且它们占据了排名前100位的网站流量的大部分。
-
-Google是世界上几乎每个国家无可争议的顶级网站。事实上，Alphabet在排名前100位的11个领域 – 包括YouTube和一些国际版Google–在一个月内获得了令人印象深刻的900亿次访问。
-
-中国（百度）和俄罗斯（Yandex）可以找到谷歌占据主导地位的例外情况，本土搜索引擎已经成功占领了国内市场。
-
-一个斗志旺盛的竞争对手DuckDuckGo正逐渐成为谷歌的替代品。搜索引擎对用户隐私的关注似乎与互联网用户产生共鸣，因为该网站的流量每月超过5亿次访问。
-
-# 流媒体高速发展
-
-视频流和共享是全球互联网流量的另一个主要驱动因素。
-
-由于高性能手机和更大的数据计划，视频现在是互联网内容消费的重要部分。这可以采取几种形式，从在Netflix上观看电视节目到在Douyin和Instagram等平台上进行简短的视频上传。
-
-实时流媒体越来越多地成为这一组合的一部分。Twitch专注于游戏，目前在网络流量方面排名世界第30位。亚马逊拥有的平台如此受欢迎，以至于在任何一个晚上，它的收视率超过了许多美国主要的有线电视网络。
-
-![](http://cdn.hjyweb.cn/wp-content/uploads/2020/03/twitch-hours-viewed.jpg)
-
-当然，此类别还包括成人内容，在此排名中有很好的代表性。XNXX，XVideos和PornHub都进入了前20名，这三个网站在最近一个月的数据中总共超过90亿次访问。
-
-# 百强网站国家分布状况
-
-互联网是一个全球网络，但许多守门人仍然位于美国。如果计算亚马逊和谷歌等公司的国际域名后缀，则排名中的100个网站中有60个是美国的。
-
-以下是按国家划分的前100名的细目。
-
-![](http://cdn.hjyweb.cn/wp-content/uploads/2020/03/top-100-websites-by-geo.gif)
-
-中国是一个强劲的亚军，在前100名中有15个网站。虽然这些中国公司大多集中在规模庞大的国内市场，但也有一些公司通过投资进入全球市场。腾讯部分支持快速增长的聊天平台Discord，它还拥有Snapchat和Spotify的两位数股权。
-
-除了百度之外，世界上所有最大的网站都通过服务全球受众而扩大规模。随着中国科技市场的不断成熟，中国企业能否成功超越防火墙成为下一个Facebook或谷歌还有待观察。
-
-> 更正：由中国公司运营的网站Bilibili被错误地识别为日本公司。
-]]></content>
-      <categories>
-        <category>网站</category>
-      </categories>
-      <tags>
-        <tag>世界排名</tag>
-        <tag>百强网站</tag>
-        <tag>网站</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Google出品的图片压缩神器：Squoosh</title>
-    <url>/2018/11/14/squoosh/</url>
-    <content><![CDATA[除了著名的TinyPNG外，还有一个压缩图片的网站值得你收藏！
-
-![](http://cdn.hjyweb.cn/wp-content/uploads/2020/03/tinypng.jpg)
-<!-- more -->
-
-说起在线图片压缩，可能很多人第一反应是微信或者QQ，毕竟这种软件自带压缩功能，发个来回就能把原图从几MB压缩到几百KB。但这不是重点，重点是某些网站在提交图片资料时有严格的大小限制，比如某财政局网站在审核会计人员时，就要求相关资料图片不能大于200kB一张。
-
-这可把我给急坏了，现在的智能手机拍个照片，真的随随便便就几MB了。刚开始我还用TinyPNG的，毕竟百度搜索“压缩图片”，排名第一就是它，也算是压缩图片的神器之一了。
-
-但我反复上传压缩了几次都不行，又不想动用Photoshop~~（主要是不会）~~，就上网搜了一下有没有可以“定制”压缩比例大小的。
-
-这还真被我找到了，而且还是Google开源的一个在线图片压缩网站——[Squoosh](https://squoosh.app/)，官网截图如下：
-
-![](http://cdn.hjyweb.cn/wp-content/uploads/2020/03/squoosh.jpg)
-
-这款神器支持JPG、PNG、WEBP等常见格式图片的极限压缩，注意了，是极限压缩，随心所欲选择压缩力度的那种。个人感觉比TinyPNG还要屌，下面以一张原始尺寸为505KB的图片做一下对比测试，大家看看就知道了：
-
-| 图片压缩方式 | 大小（KB） | 压缩图片数量 |
-|:------------:|:----------:|:------------:|
-| 原始图片 | 505        |                    |
-| TinyPNG压缩 | 118        | 一次一张或多张图片 |
-| Squoosh压缩 | 73.5       | 一次一张图片 |
-
-压缩之后，三张图片也几乎看不出区别：
-
-![](http://cdn.hjyweb.cn/wp-content/uploads/2020/03/yasodvbitu.jpg)
-
-当然啦，软件操作起来也是相当的简单，只需在右方的“质量”里面选择百分比，就可以得到不同压缩程度的图片。而且它的功能也不仅仅只有“压缩图片”哦！
-
-![](http://cdn.hjyweb.cn/wp-content/uploads/2020/03/squooshcczo.jpg)
-
-最后，放上这两款压缩图片神器的网址：
-
-- Squoosh压缩： [https://squoosh.app/](https://squoosh.app/)
-- TinyPNG压缩： [https://tinypng.com/](https://tinypng.com/)
-]]></content>
-      <categories>
-        <category>Windows</category>
-        <category>技术教程</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>为什么在京东搜的东西，会在微信广告里看到</title>
-    <url>/2019/09/19/programmatic-advertising/</url>
-    <content><![CDATA[为什么你会被广告“追”？
-
-![](http://cdn.hjyweb.cn/wp-content/uploads/2020/03/pa1.png)
-<!-- more -->
-
-可能大家常常都会有一个疑惑：为什么我刚在京东搜的耳机，这会儿在抖音就刷到广告了，而且还是我搜的那个型号？哎，不仅仅在抖音哎，微信订阅号里也出现了耳机的广告了。
-
-![](http://cdn.hjyweb.cn/wp-content/uploads/2020/03/pa5.png)
-
-其实，不止是你，当今这种现象可以说是非常的普遍了。比如在淘宝搜“大衣”就会在知乎上看到广告；在京东搜“零食”就会在抖音里看到视频广告；在天猫搜索“手表”就会在微信公众号里看到手表的广告。可以说是非常“贴心”了！
-
-![](http://cdn.hjyweb.cn/wp-content/uploads/2020/03/pa2.png)
-
-与程序化广告相对应的一个概念是“标签化定向投放”广告，也就是我们非常熟悉的传统广告。它们包括：传统纸媒的广告、搜索引擎的广告、网站网页上的固定广告等等。
-
-![](http://cdn.hjyweb.cn/wp-content/uploads/2020/03/pa4.png)
-
-比如你在百度搜索“会计”，百度会根据你的搜索关键词返回搜索内容以及相关的广告。
-
-![](http://cdn.hjyweb.cn/wp-content/uploads/2020/03/pa3.png)
-
-比如本网站首页右侧的微信小程序广告，左侧上方的腾讯云推广也都属于标签化定向投放广告。
-
-这类广告模式经过多年的发展，产业链也已经相当完善，广告费用也相对较低。但由于缺乏“定制”，所以广告的转化率也相对较低。如果过多地推送无关广告，也会降低用户体验。
-
-![](http://cdn.hjyweb.cn/wp-content/uploads/2020/03/pa6.png)
-
-而程序化广告则能够很好的解决这个问题， 程序化广告的一个核心应用就是“信息流实时竞价投放”广告。
-
-这是基于现代信息咨询获取方式的变化而发展出来的一种广告模式，现在绝大多数资讯网站都提供了“智能推荐”，在很大程度上弱化了用户“搜索”的倾向。
-
-在“投喂式”获取资讯的今天，实时竞价投放结合大数据的应用，已有足够的能力向用户投放“智能推荐”的广告。
-
-![](http://cdn.hjyweb.cn/wp-content/uploads/2020/03/pa7.png)
-
-程序化广告的主要流程如上图所示，在用户即将“滑到”广告位的时候，APP以及网站等流量供应方便会把该用户的请求转发至广告交易平台。
-
-在广告交易平台，不同的需求方平台会对该用户信息进行识别，如用户的性别、年龄段、浏览历史、兴趣爱好等。根据数据管理平台的识别结果，在广告库中进行广告匹配。如果匹配概率较高，需求方平台就会提供更高的报价以获得这一个广告位。
-
-在广告交易平台，不同的需求方平台通过“投标”的方式竞价该广告位。根据相关资料显示，中标的需求方平台的中标金额为排名第二高的标价加上1分等金额。这样的投标机制也有利于激发需求方平台的竞标“热情”。
-
-![](http://cdn.hjyweb.cn/wp-content/uploads/2020/03/pa8.png)
-
-这一整个过程耗时一般在80毫秒至100毫秒。
-
-![](http://cdn.hjyweb.cn/wp-content/uploads/2020/03/bd.jpg)
-<center>百度的 “信息流实时竞价投放”广告</center>
-
-当然，这整一个过程最重要的就是用户画像了，说白了，就是你的APP了解你的程度。了解的程度越高，用户画像就越精确，广告也就越精准了。
-
-![](http://cdn.hjyweb.cn/wp-content/uploads/2020/03/yshuhxxl.jpg)
-<center>用户画像是核心所在</center>
-
-这其中，有一个很重要的数据就是国际移动设备识别码(IMEI) ，有了IMEI，想要确定你的兴趣爱好等等，基本上就很容易了。可以说，IMEI就是互联网的身份证！
-
-![](http://cdn.hjyweb.cn/wp-content/uploads/2020/03/pa11.png)
-
-说句题外话，由于对隐私的重视，像是苹果、谷歌等厂商，已经对手机的IMEI进行了加密和替换。也就是说，只要你重置手机，以前的广告商就“识别”不了你了。你就像重获新生一样……
-
-![](http://cdn.hjyweb.cn/wp-content/uploads/2020/03/dzyb.jpg)
-
-当然，在某种程度上来说，程序化广告还是利大于弊的。无论是对于广告主还是用户，这项技术都有效的整合了资源，避免了信息资源的浪费。
-
-![](http://cdn.hjyweb.cn/wp-content/uploads/2020/03/pa13.png)
-
-广告正通过技术手段，更加的了解你，也更加懂你，这何尝不是一种进步呢？
-
-]]></content>
-      <categories>
-        <category>求知</category>
-      </categories>
-      <tags>
-        <tag>广告</tag>
-        <tag>广告追踪</tag>
-        <tag>程序化广告</tag>
-        <tag>购物</tag>
       </tags>
   </entry>
 </search>
