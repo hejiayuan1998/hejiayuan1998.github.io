@@ -1,172 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>谷歌彩蛋集锦</title>
-    <url>/2018/07/06/google-easter-eggs/</url>
-    <content><![CDATA[![](http://cdn.hjyweb.cn/browser-1666982_1280.png)
-
-# 扔硬币
-
-<center>{% label default@flip a coin %}</center>
-
-遇到难以抉择、进退两难的选择？摸摸口袋却没有硬币？别担心，Google来帮你！
-
-![](http://cdn.hjyweb.cn/google1.png)
-
----
-
-# 扔骰子
-
-<center>{% label primary@roll a die %}</center>
-
-嗯~~~这个你们懂的！特别是学概率论的童鞋^_^
-
-![](http://cdn.hjyweb.cn/google2.png)
-
----
-
-# 比萨斜塔
-
-<center>{% label success@askew %}</center>
-
-这是要逼死强迫症的节奏啊啊啊啊……
-
-![](http://cdn.hjyweb.cn/google3.png)
-
----
-
-![](http://cdn.hjyweb.cn/google4.png)
-
----
-
-# 星际争霸
-
-<center>{% label info@zerg rush %}</center>
-
-Zerg Rush是《星际争霸》中一种“一方以最快速度生产6个或以上的跳虫攻击敌方的战术”。
-
-啊啊啊啊……我的网页没啦！输啦输啦！
-看看你能玩多少分？（坏笑脸.jpg）听说还有个吉尼斯纪录！
-
-![](http://cdn.hjyweb.cn/google5.png)
-
----
-
-![](http://cdn.hjyweb.cn/google6.png)
-
----
-
-![](http://cdn.hjyweb.cn/google7.png)
-
----
-
-![](http://cdn.hjyweb.cn/google8.png)
-
-GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG
-
----
-
-# 打砖块
-
-<center>{% label warning@atari breakout %}</center>
-
-在图片搜索输入以上字母，你就可以玩起打砖块游戏啦！
-这游戏音效，带感！
-
-![](http://cdn.hjyweb.cn/google9.png)
-
----
-
-![](http://cdn.hjyweb.cn/google10.png)
-
----
-
-![](http://cdn.hjyweb.cn/google11.png)
-
----
-
-# 吃豆人
-
-<center>{% label danger@google pacman %}</center>
-
-童年的回忆啊！！！有木有？
-貌似暴露年龄了，咳咳~
-
-![](http://cdn.hjyweb.cn/google12.png)
-
----
-
-![](http://cdn.hjyweb.cn/google13.png)
-
----
-
-# 谷歌重力
-
-<center>{% label default@google gravity %}</center>
-
-体验一下自由落体是什么感觉
-可以在女票/男票电脑上试试，嘻嘻
-看着碎了一地的Google
-世界塌了哈哈哈哈哈哈
-
-![](http://cdn.hjyweb.cn/google14.png)
-
----
-
-![](http://cdn.hjyweb.cn/google15.png)
-
----
-
-# 翻转世界
-
-<center>{% label primary@do a barrel roll %}</center>
-
-你喜欢就好┑(￣Д ￣)┍
-
-![](http://cdn.hjyweb.cn/google16.png)
-
----
-
-# Google历史界面
-
-<center>{% label success@google in 1998 %}</center>
-
-重温经典的不归之路~
-
-![](http://cdn.hjyweb.cn/google17.png)
-
----
-
-![](http://cdn.hjyweb.cn/google18.png)
-
----
-
-# 谷歌轨道
-
-<center>{% label info@google orbit %}</center>
-
-装逼神器，懂的人自然懂:-)
-话说Gmail标签在哪？
-
-![](http://cdn.hjyweb.cn/google19.png)
-
----
-
-![](http://cdn.hjyweb.cn/google20.png)
-
----
-
-你TMD倒是说说怎么上Google啊！！！
-谁知道呢？（坏笑.jpg）
-喏！给你个网址：www.google.com
-祝您心明眼亮！]]></content>
-      <tags>
-        <tag>Google</tag>
-        <tag>彩蛋</tag>
-        <tag>谷歌搜索</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>博客样式汇总</title>
     <url>/2018/01/11/style-summary/</url>
     <content><![CDATA[![](http://cdn.hjyweb.cn/icon.png)
@@ -373,6 +207,172 @@ span#inline-toc {
 <span id="inline-toc">1.</span>左边是效果]]></content>
       <tags>
         <tag>博客</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>谷歌彩蛋集锦</title>
+    <url>/2018/07/06/google-easter-eggs/</url>
+    <content><![CDATA[![](http://cdn.hjyweb.cn/browser-1666982_1280.png)
+
+# 扔硬币
+
+<center>{% label default@flip a coin %}</center>
+
+遇到难以抉择、进退两难的选择？摸摸口袋却没有硬币？别担心，Google来帮你！
+
+![](http://cdn.hjyweb.cn/google1.png)
+
+---
+
+# 扔骰子
+
+<center>{% label primary@roll a die %}</center>
+
+嗯~~~这个你们懂的！特别是学概率论的童鞋^_^
+
+![](http://cdn.hjyweb.cn/google2.png)
+
+---
+
+# 比萨斜塔
+
+<center>{% label success@askew %}</center>
+
+这是要逼死强迫症的节奏啊啊啊啊……
+
+![](http://cdn.hjyweb.cn/google3.png)
+
+---
+
+![](http://cdn.hjyweb.cn/google4.png)
+
+---
+
+# 星际争霸
+
+<center>{% label info@zerg rush %}</center>
+
+Zerg Rush是《星际争霸》中一种“一方以最快速度生产6个或以上的跳虫攻击敌方的战术”。
+
+啊啊啊啊……我的网页没啦！输啦输啦！
+看看你能玩多少分？（坏笑脸.jpg）听说还有个吉尼斯纪录！
+
+![](http://cdn.hjyweb.cn/google5.png)
+
+---
+
+![](http://cdn.hjyweb.cn/google6.png)
+
+---
+
+![](http://cdn.hjyweb.cn/google7.png)
+
+---
+
+![](http://cdn.hjyweb.cn/google8.png)
+
+GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG
+
+---
+
+# 打砖块
+
+<center>{% label warning@atari breakout %}</center>
+
+在图片搜索输入以上字母，你就可以玩起打砖块游戏啦！
+这游戏音效，带感！
+
+![](http://cdn.hjyweb.cn/google9.png)
+
+---
+
+![](http://cdn.hjyweb.cn/google10.png)
+
+---
+
+![](http://cdn.hjyweb.cn/google11.png)
+
+---
+
+# 吃豆人
+
+<center>{% label danger@google pacman %}</center>
+
+童年的回忆啊！！！有木有？
+貌似暴露年龄了，咳咳~
+
+![](http://cdn.hjyweb.cn/google12.png)
+
+---
+
+![](http://cdn.hjyweb.cn/google13.png)
+
+---
+
+# 谷歌重力
+
+<center>{% label default@google gravity %}</center>
+
+体验一下自由落体是什么感觉
+可以在女票/男票电脑上试试，嘻嘻
+看着碎了一地的Google
+世界塌了哈哈哈哈哈哈
+
+![](http://cdn.hjyweb.cn/google14.png)
+
+---
+
+![](http://cdn.hjyweb.cn/google15.png)
+
+---
+
+# 翻转世界
+
+<center>{% label primary@do a barrel roll %}</center>
+
+你喜欢就好┑(￣Д ￣)┍
+
+![](http://cdn.hjyweb.cn/google16.png)
+
+---
+
+# Google历史界面
+
+<center>{% label success@google in 1998 %}</center>
+
+重温经典的不归之路~
+
+![](http://cdn.hjyweb.cn/google17.png)
+
+---
+
+![](http://cdn.hjyweb.cn/google18.png)
+
+---
+
+# 谷歌轨道
+
+<center>{% label info@google orbit %}</center>
+
+装逼神器，懂的人自然懂:-)
+话说Gmail标签在哪？
+
+![](http://cdn.hjyweb.cn/google19.png)
+
+---
+
+![](http://cdn.hjyweb.cn/google20.png)
+
+---
+
+你TMD倒是说说怎么上Google啊！！！
+谁知道呢？（坏笑.jpg）
+喏！给你个网址：www.google.com
+祝您心明眼亮！]]></content>
+      <tags>
+        <tag>Google</tag>
+        <tag>彩蛋</tag>
+        <tag>谷歌搜索</tag>
       </tags>
   </entry>
 </search>
