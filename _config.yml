@@ -1,1 +1,10 @@
 theme: jekyll-theme-cayman
+
+# Site
+title: 必应每日壁纸
+subtitle: 没钱、没文化、长的丑
+description: 何嘉源的博客
+keywords: 何嘉源,博客,视野Scope,何嘉源的博客
+author: 细蚊仔
+language: zh-CN
+timezone:
